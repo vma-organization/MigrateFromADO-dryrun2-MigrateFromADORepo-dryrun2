@@ -1,4 +1,4 @@
-name: 'Check linked work item to this PR (AB# with a valid work item id)'
+name: 'Check linked work item (AB# with a valid work item id)'
 on: # rebuild any PRs for main branch changes
   pull_request:
     types: [opened, reopened, edited]
@@ -6,7 +6,7 @@ on: # rebuild any PRs for main branch changes
       - main 
 jobs:
   check-linked-work-item:
-    name: Check linked work item to this PR
+    name: Check linked work item
     runs-on: ubuntu-latest
     steps:
       - uses: danhellem/github-actions-pr-is-linked-to-work-item@main
