@@ -17,3 +17,7 @@ This repository demonstrates Azure DevOps to GitHub migration using infrastructu
 
 Ready for GitHub migration!
 
+This project demonstrates the migration process from Azure DevOps repositories to GitHub using infrastructure as code.
+
+hey toi
+edited from GHHUI
